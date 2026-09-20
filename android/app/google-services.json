@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337516572082",
+    "project_id": "cricpulse-5c2de",
+    "storage_bucket": "cricpulse-5c2de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337516572082:android:c7738b01dbf6e57fe948ab",
+        "android_client_info": {
+          "package_name": "com.example.cric_pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-P040eQ-VFVtmW-rVzzsZ3SL0DwUSyQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

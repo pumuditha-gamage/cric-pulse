@@ -1,0 +1,46 @@
+name: cric_pulse
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.4.1
+  firebase_core: ^4.10.0
+  cloud_firestore: ^6.5.0
+  firebase_auth: ^6.5.2
+  image_picker: ^1.2.2
+  google_fonts: ^6.2.0
+  url_launcher: ^6.3.2
+  firebase_storage: ^13.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.1
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_native_splash:
+  color: "#2C8A53"
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash_bg.png
+    - assets/slider_1.jpg
+    - assets/slider_2.jpg
+    - assets/slider_3.jpg
+    - assets/logo.jpg
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpg"
+  remove_alpha_ios: true
